@@ -1,5 +1,15 @@
 # Helix Github CLI
 
+## TL;DR
+
+[Download](https://github.com/helix-collective/hxgh/releases/latest) or locally build `hxgh` (`go get -v github.com/helix-collective/hxgh`)
+```
+  export GITHUB_TOKEN=xxx
+hxgh events csv --timezone-hours-offset 11 username > event.csv
+```
+
+## Details
+
 <!--tmpl,code=bash:./hxgh -h -->
 ``` bash 
 
